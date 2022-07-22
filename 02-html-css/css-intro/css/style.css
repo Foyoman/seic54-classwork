@@ -1,0 +1,49 @@
+/* 
+
+CSS: Cascading Style Sheets
+
+selector {
+    property-name: some-value;
+    other-property: other-value;
+}
+
+*/
+
+body {
+    background-color: lavender;
+}
+
+h1 {
+    text-align: center;
+    font-size: 400%; /* other units: px, pt, em */
+    color: #718d96; /* Hex code: #rrggbb */
+}
+
+/* Design in the browser */
+
+a {
+    color: #ff4a69;
+}
+
+/* More complicated selectors */
+
+/* Select multiple different elements at the same time */
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: #d2f7fa;
+    text-align: center;
+    text-shadow: -6px -6px 6px seagreen;
+    padding: 40px;
+}
+
+img {
+    width: 33%;
+}
+
+img.feature {
+    width: 100%;
+}
+
+.cheeky {
+    color: #770a3f;
+}

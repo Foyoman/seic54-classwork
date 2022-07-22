@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 
+
+Typically on new projects we set the new sizing rules once and for all, for every element on the page.
+
+*/
+
+body {
+    background-color: lavender;
+}
+
+.old {
+    width: 262px;
+    height: 262px;
+    border: 4px solid black;
+    padding: 15px;
+}
+
+.new {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    padding: 50px;
+}

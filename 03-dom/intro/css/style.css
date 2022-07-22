@@ -1,0 +1,11 @@
+/*
+.listitem {
+    color: red;
+}
+*/
+
+.alreadyread {
+    opacity: 0.5;
+    border: 1px solid lavender;
+    font-style: italic;
+}

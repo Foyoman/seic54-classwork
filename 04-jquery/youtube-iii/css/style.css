@@ -1,0 +1,26 @@
+body {
+    padding-top: 3em;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+a {
+    font-size: 50px;
+    color:rgb(255, 152, 246);
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}

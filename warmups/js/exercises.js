@@ -182,51 +182,182 @@ console.log(timeConvert('12:29:28AM'));
 //     console.log(newString.join('-'));
 // }
 
-const mumble = function (string) {
-    let output = string.toUpperCase().split('');
+// const mumble = function (string) {
+//     let output = string.toUpperCase().split('');
 
-    for (let i = 0; i < output.length; i++) {
-        output[i] = output[i].padEnd(i+1, string[i]);
-    }
+//     for (let i = 0; i < output.length; i++) {
+//         output[i] = output[i].padEnd(i+1, string[i]);
+//     }
 
-    console.log(output.join('-'));
-}
+//     console.log(output.join('-'));
+// }12345
 
-mumble('poop');
-mumble('X'); // => 'X'
-mumble('abc'); // => 'a-bb-ccc'
-mumble('121'); // => '1-22-111'
-mumble('!A 2'); // => '!-AA-   -2222'
+// mumble('poop');
+// mumble('X'); // => 'X'
+// mumble('abc'); // => 'a-bb-ccc'
+// mumble('121'); // => '1-22-111'
+// mumble('!A 2'); // => '!-AA-   -2222'
 
-const allergies = {
-    eggs: 1,
-    peanuts: 2,
-    shellfish: 4,
-    strawberries: 8,
-    tomatoes: 16,
-    chocolate: 32,
-    pollen: 64,
-    cats: 128
-}
+// const allergies = {
+//     eggs: 1,
+//     peanuts: 2,
+//     shellfish: 4,
+//     strawberries: 8,
+//     tomatoes: 16,
+//     chocolate: 32,
+//     pollen: 64,
+//     cats: 128
+// }
 
-const allergyScore = function(score) {
-    const allergies = [];
+// const allergyScore = function(score) {
+//     const allergies = [];
 
-    const scores = Object.keys(allergies);
+//     const scores = Object.keys(allergies);
 
-    for (let i = scores.length; i >= 0; i--) {
-        const allergenScore = Number(scores[i]);
+//     for (let i = scores.length; i >= 0; i--) {
+//         const allergenScore = Number(scores[i]);
 
-        if (allergenScore <= score) {
-            score -= allergenScore;
+//         if (allergenScore <= score) {
+//             score -= allergenScore;
 
-            allergies.push(allergenList[allergenScore]);
-        }
+//             allergies.push(allergenList[allergenScore]);
+//         }
         
+//     }
+//     return allergies;
+// }
+
+// allergyScore(26);  // => [ 'tomatoes', 'strawberries', 'peanuts' ]
+// allergyScore(132); // => [ 'cats', 'shellfish' ]
+// allergyScore(0);   // => [] 
+
+// const countingValleys = function (string) {
+//     let altitude = 0
+//     let valleys = 0
+//     str = string.split('')
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] === 'U') {
+//             altitude++;
+//         } else if (str[i] === 'D') {
+//             if (altitude === 0) {
+//                 valleys++;
+//             }
+//             altitude--;
+//         }
+//     }
+//     console.log(valleys);
+// }
+
+// const reverse = function (arr) {
+//     let reversed = [];
+//     for (let i = arr.length -1; i >= 0; i--) {
+//         reversed.push(arr[i]);
+//     }
+//     return reversed;
+// };
+
+// const meFlatten = function (arr) {
+//     let flattened = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i].length > 1 && Array.isArray(arr[i])) {
+//             for (let j = 0; j < arr[i].length; j++) {
+//                 flattened.push(arr[i][j]);
+//             }
+//         } else {
+//             flattened.push(arr[i]);
+//         }
+//     }
+//     return flattened;
+// }
+
+// // jacqui's solution
+// const flatten = function (arr) {
+//     const flattened = [];
+//     arr.forEach(element => {
+//         if (Array.isArray(element)) {
+//             flattened.push(...flatten(element));
+//             // can do flattened.push(...element) if only one level deep
+//         } else {
+//             flattened.push(element);
+//         }
+//     });
+
+//     return flattened;
+//     // ...or you could just use .flatten()
+// };
+
+// const grainsOnSquare = function (n) {
+//     if (n === 1) {
+//         return n;
+//     };
+//     return grainsOnSquare(n - 1) * 2;
+// };
+
+// const grainsOnSquares = function (i = 1) {
+//     if (i > 64) {
+//         return;
+//     };
+//     console.log(`Square ${i}: ${grainsOnSquare(i)}`);
+//     return grainsOnSquares(i + 1);
+// };
+
+// const grainsOnBoard = function () {
+//     let i = 1;
+//     let sum = 0;
+//     const total = function (i) {
+//         if (i > 64) {
+//             return `The total number of grains is ${sum}`;
+//         }
+//         sum += grainsOnSquare(i);
+//         return total(i + 1);
+//     };
+//     return total(i);
+// };
+
+const recursiveLetter = function (string) {
+    str = string.split(' ').join('').toLowerCase();
+    let i = str.length - 1;
+    let letter = str[i];
+    const mostFrequent = function (i) {
+        if (i < 0) {
+            return letter;
+        }
+        if (string.split(str[i]).length > string.split(letter).length) {
+            letter = str[i];
+        };
+        return mostFrequent(i - 1);
     }
-    return allergies;
+    return mostFrequent(i);
+};
+
+const recurringLetter = function (sentence) {
+    // lowercase the sentence to ignore case
+    sentence = sentence.toLowerCase();
+    // this object will track character counts
+    const counts = {};
+    // loop through sentence and update character counts
+    _(sentence).each(function (character) {
+        // set character count to 1 if it hasn't been added before
+        if (counts[character] === undefined) {
+            counts[character] = 1;
+        // otherwise, increase its count by 1
+        } else {
+            counts[character]++;
+        }
+    });
+    // finds "max" based on the return value of callback function
+    return _(sentence).max(function (character) {
+        return counts[character];
+    });
 }
 
-allergyScore(26);  // => [ 'tomatoes', 'strawberries', 'peanuts' ]
-allergyScore(132); // => [ 'cats', 'shellfish' ]
-allergyScore(0);   // => [] 
+const capitalizeLetter = function (sentence, letter) {
+    return _(sentence).reduce(function (output, char) {
+        // capitalize character if its the provided letter
+        if (char === letter) {
+            char = char.toUpperCase();
+        }
+        // add character to the output
+        return output += char;
+    }, ''); // start with an empty string
+}

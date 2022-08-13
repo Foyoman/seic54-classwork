@@ -314,50 +314,137 @@ console.log(timeConvert('12:29:28AM'));
 //     return total(i);
 // };
 
-const recursiveLetter = function (string) {
-    str = string.split(' ').join('').toLowerCase();
-    let i = str.length - 1;
-    let letter = str[i];
-    const mostFrequent = function (i) {
-        if (i < 0) {
-            return letter;
-        }
-        if (string.split(str[i]).length > string.split(letter).length) {
-            letter = str[i];
-        };
-        return mostFrequent(i - 1);
-    }
-    return mostFrequent(i);
-};
+// const recursiveLetter = function (string) {
+//     str = string.split(' ').join('').toLowerCase();
+//     let i = str.length - 1;
+//     let letter = str[i];
+//     const mostFrequent = function (i) {
+//         if (i < 0) {
+//             return letter;
+//         }
+//         if (string.split(str[i]).length > string.split(letter).length) {
+//             letter = str[i];
+//         };
+//         return mostFrequent(i - 1);
+//     }
+//     return mostFrequent(i);
+// };
 
-const recurringLetter = function (sentence) {
-    // lowercase the sentence to ignore case
-    sentence = sentence.toLowerCase();
-    // this object will track character counts
-    const counts = {};
-    // loop through sentence and update character counts
-    _(sentence).each(function (character) {
-        // set character count to 1 if it hasn't been added before
-        if (counts[character] === undefined) {
-            counts[character] = 1;
-        // otherwise, increase its count by 1
-        } else {
-            counts[character]++;
-        }
-    });
-    // finds "max" based on the return value of callback function
-    return _(sentence).max(function (character) {
-        return counts[character];
-    });
+// const recurringLetter = function (sentence) {
+//     // lowercase the sentence to ignore case
+//     sentence = sentence.toLowerCase();
+//     // this object will track character counts
+//     const counts = {};
+//     // loop through sentence and update character counts
+//     _(sentence).each(function (character) {
+//         // set character count to 1 if it hasn't been added before
+//         if (counts[character] === undefined) {
+//             counts[character] = 1;
+//         // otherwise, increase its count by 1
+//         } else {
+//             counts[character]++;
+//         }
+//     });
+//     // finds "max" based on the return value of callback function
+//     return _(sentence).max(function (character) {
+//         return counts[character];
+//     });
+// }
+
+// const capitalizeLetter = function (sentence, letter) {
+//     return _(sentence).reduce(function (output, char) {
+//         // capitalize character if its the provided letter
+//         if (char === letter) {
+//             char = char.toUpperCase();
+//         }
+//         // add character to the output
+//         return output += char;
+//     }, ''); // start with an empty string
+// }
+
+// const tinder = function (n) {
+//     let splitNum = String(n).split("").map(Number);
+//     if (n < 10) {
+//         return n;
+//     } else {
+//         return tinder(splitNum.reduce(
+//             (a, b) => a + b
+//         ));
+//     };
+// };
+
+// const digitalRoot = function (num) {
+//     // convert num into array of digits
+//     const digits = String(num).split('').map(Number);
+//     // sum digits in array
+//     const sum = digits.reduce(function (digit, accumulator) {
+//         return digit + accumulator;
+//     });
+//     // recursive magic
+//     if (sum < 10) {
+//         return sum;
+//     };
+
+//     return digitalRoot(sum);
+// }
+
+// const pairwise = function (arr, n) {
+//     let sum = 0;
+//     let indices = [];
+//     for (let i = 0; i < arr.length - 1; i++) {
+//         for (let j = i + 1; j < arr.length; j++) {
+//             if (arr[i] + arr[j] === n) {
+//                 console.log(`There is a pair at indices: [${arr.indexOf(arr[i])}, ${arr.indexOf(arr[j])}]`)
+//                 indices.push(arr.indexOf(arr[i]), arr.indexOf(arr[j]))
+//                 unique = [... new Set(indices)];
+//                 sum = unique.reduce ((a, b) => a + b);
+//                 // console.log(i, j)
+//             }
+//         }
+//     }
+//     console.log(sum);
+// };
+
+// pairwise([7, 9, 11, 13, 15], 20); // => 6
+// pairwise([1, 6, 12, -2, 0, 7, 9, 9], 10); // => 11
+// pairwise([2, 18, 24, 7, 18, 4, 21], 25);
+
+const checkNumber = (number) => {
+    let digits = number.split('');
+    // If the phone number has any non-numerals in it they should be removed/ignored
+    digits = cleanNumber(digits);
+    // If the phone number is 11 digits and the first number is 1 trim the 1 and use the first 10 digits
+    // If the phone number is 11 digits and the first number is not 1 then it is an invalid number
+    digits = elevenCheck(digits);
+    // If the phone number is 10 digits long it is valid; if not it is invalid
+    digits = tenCheck(digits);
+
+    return formatNumber(digits.join(''));
 }
 
-const capitalizeLetter = function (sentence, letter) {
-    return _(sentence).reduce(function (output, char) {
-        // capitalize character if its the provided letter
-        if (char === letter) {
-            char = char.toUpperCase();
+const cleanNumber = (digits) => {
+    const validChars = '123456789'.split('')
+    return digits.filter(digit => validChars.find(char => char === digit) === undefined);
+}
+
+const elevenCheck = (digits) => {
+    if (digits.length === 11) {
+        if (digits[0] === '1') {
+            digits.shift();
+        } else {
+            digits = '0000000000';
         }
-        // add character to the output
-        return output += char;
-    }, ''); // start with an empty string
+    }
+    return digits;
+}
+
+const tenCheck = (digits) => {
+    return digits.length === 10 ? digits : '0000000000';
+}
+
+const formatNumber = (digits) => {
+    const first = digits.substring(0, 3);
+    const second = digits.substring(0, 6);
+    const third = digits.substring(6);
+    return `(${first} ${second}-${third})`;
 }

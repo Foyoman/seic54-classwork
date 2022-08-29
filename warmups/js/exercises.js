@@ -409,42 +409,301 @@ console.log(timeConvert('12:29:28AM'));
 // pairwise([1, 6, 12, -2, 0, 7, 9, 9], 10); // => 11
 // pairwise([2, 18, 24, 7, 18, 4, 21], 25);
 
-const checkNumber = (number) => {
-    let digits = number.split('');
-    // If the phone number has any non-numerals in it they should be removed/ignored
-    digits = cleanNumber(digits);
-    // If the phone number is 11 digits and the first number is 1 trim the 1 and use the first 10 digits
-    // If the phone number is 11 digits and the first number is not 1 then it is an invalid number
-    digits = elevenCheck(digits);
-    // If the phone number is 10 digits long it is valid; if not it is invalid
-    digits = tenCheck(digits);
+// const checkNumber = (number) => {
+//     let digits = number.split('');
+//     // If the phone number has any non-numerals in it they should be removed/ignored
+//     digits = cleanNumber(digits);
+//     // If the phone number is 11 digits and the first number is 1 trim the 1 and use the first 10 digits
+//     // If the phone number is 11 digits and the first number is not 1 then it is an invalid number
+//     digits = elevenCheck(digits);
+//     // If the phone number is 10 digits long it is valid; if not it is invalid
+//     digits = tenCheck(digits);
 
-    return formatNumber(digits.join(''));
-}
+//     return formatNumber(digits.join(''));
+// }
 
-const cleanNumber = (digits) => {
-    const validChars = '123456789'.split('')
-    return digits.filter(digit => validChars.find(char => char === digit) === undefined);
-}
+// const cleanNumber = (digits) => {
+//     const validChars = '123456789'.split('')
+//     return digits.filter(digit => validChars.find(char => char === digit) === undefined);
+// }
 
-const elevenCheck = (digits) => {
-    if (digits.length === 11) {
-        if (digits[0] === '1') {
-            digits.shift();
-        } else {
-            digits = '0000000000';
-        }
+// const elevenCheck = (digits) => {
+//     if (digits.length === 11) {
+//         if (digits[0] === '1') {
+//             digits.shift();
+//         } else {
+//             digits = '0000000000';
+//         }
+//     }
+//     return digits;
+// }
+
+// const tenCheck = (digits) => {
+//     return digits.length === 10 ? digits : '0000000000';
+// }
+
+// const formatNumber = (digits) => {
+//     const first = digits.substring(0, 3);
+//     const second = digits.substring(0, 6);
+//     const third = digits.substring(6);
+//     return `(${first} ${second}-${third})`;
+// }
+
+// const collatz = (n, steps = 0) => {
+//     if (n === 1) {
+//         return `n === 1. It took ${steps} steps to reach 1.`;
+//     }
+//     if (n % 2 === 0) {
+//         steps ++;
+//         return collatz(n / 2, steps);
+//     } else {
+//         steps ++;
+//         return collatz(3 * n + 1, steps);
+//     }
+// }
+
+// console.log(collatz(1))
+// console.log(collatz(2))
+// console.log(collatz(3))
+
+// const collats = (number) => {
+//     let count = 0;
+
+//     console.log('starting from: ', number);
+
+//     while (number !== 1) {
+//         if (number % 2 === 0) {
+//             number /= 2;
+//         } else {
+//             number = number * 3 + 1;
+//         }
+//         count++;
+//         console.log(`step ${count}: ${number}`);
+//     }
+
+//     return count;
+// }
+
+// const collatzRecursive = (number, count = 0) => {
+//     if (number === 1) return count;
+    
+//     console.log(`step ${count}: ${number}`)
+
+//     if (number % 2 === 0) {
+//         return collatzRecursive(number / 2, count + 1);
+//     } else {
+//         return collatzRecursive(number * 3 + 1, count + 1)
+//     }
+// }
+
+// const collatzRecursiveTernary = (n, count = 0) => {
+//     if (n === 1) return count;
+
+//     console.log(`step ${count}: ${n}`);
+
+//     return collatzRecursiveTernary(n % 2 === 0 ? n / 2 : n * 3 + 1, count + 1);
+// }
+
+// console.log('isogram');
+
+// const isogram = (word) => {;
+//     return !/(\w).*\1/i.test(word);
+// };
+
+// console.log(isogram("Dermatoglyphics")) // true;
+// console.log(isogram("isogram")) // true;
+// console.log(isogram("aba")) //false;
+// console.log(isogram("moOse")) // false,;
+// console.log(isogram("isIsogram")) // false;
+// console.log(isogram("")) // true);
+
+// console.log('isIsogram');
+
+// const isIsogram = (word) => {;
+//     word = word.toUpperCase();
+//     const recurringChars = {};
+
+//     for (let i = 0; i < word.length; i++) {;
+//         const char = word[i];
+
+//         if (recurringChars[char]) return false;
+
+//         recurringChars[char] = 'anything';
+//     };
+
+//     return true;
+// };
+
+// console.log(isIsogram("Dermatoglyphics")) // true;
+// console.log(isIsogram("isogram")) // true;
+// console.log(isIsogram("aba")) //false;
+// console.log(isIsogram("moOse")) // false,;
+// console.log(isIsogram("isIsogram")) // false;
+// console.log(isIsogram("")) // true);
+
+// console.log('logram');
+
+// const _ = require('underscore');
+
+// const logram = (word) => {;
+//     return _.uniq(word.toLowerCase()).length === word.length;
+// };
+
+// console.log(logram("Dermatoglyphics")) // true;
+// console.log(logram("isogram")) // true;
+// console.log(logram("aba")) //false;
+// console.log(logram("moOse")) // false,;
+// console.log(logram("isIsogram")) // false;
+// console.log(logram("")) // true);
+
+// console.log('setsogram');
+
+// const setsogram = (word) => {;
+//     return new Set(word.toLowerCase()).size === word.length;
+// };
+
+// console.log(setsogram("Dermatoglyphics")) // true;
+// console.log(setsogram("isogram")) // true;
+// console.log(setsogram("aba")) //false;
+// console.log(setsogram("moOse")) // false,;
+// console.log(setsogram("isIsogram")) // false;
+// console.log(setsogram("")) // true);
+
+// const simpleSymbols = str => {
+//     str = '=' + str + '=';
+
+//     for (let i = 1; i < str.length - 1; i++) {
+//         const currChar = str[i];
+//         const prevChar = str[i - 1];
+//         const nextChar = str[i + 1];
+//         // if currChar is alphabetical...
+//         if (currChar.match(/[a-zA-Z]/)) {
+//             if (prevChar != '+' || nextChar != '+') {
+//                 return String(false);
+//             }
+//         }
+//     }
+
+//     return String(true);
+//  }
+
+// console.log(simpleSymbols("++d+===+c++==a"))
+// // expect to return false
+// console.log(simpleSymbols("++d+===+c++==d"))
+//  // expect to return false
+// console.log(simpleSymbols("++d+===+c++==+a+=="))
+// // // expect to return true
+
+// const simpleSymbolsRegex = str => (!('=' + str + '=').match(/([^+][a-zA-Z]|[a-zA-Z][^+])/)).toString();
+
+// console.log(simpleSymbolsRegex("++d+===+c++==a"))
+// // expect to return false
+// console.log(simpleSymbolsRegex("++d+===+c++==d"))
+//  // expect to return false
+// console.log(simpleSymbolsRegex("++d+===+c++==+a+=="))
+// // // expect to return true
+
+// const caesar = (str, num) => {
+//     const letters = [
+//         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+//         'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+//     ]
+
+//     splitStr = str.toLowerCase().split('');
+//     const newStr = [];
+//     splitStr.forEach((letter) => {
+//         if (letter.match(/[a-z]/)) {
+//             indexOfLetter = letters.indexOf(letter);
+//             newIndex = indexOfLetter + num
+//             if (newIndex > 26) {
+//                 newIndex -= 26;
+//             }
+//             newStr.push(letters[newIndex])
+//         } else {
+//             newStr.push(letter)
+//         }
+//     })
+//     return newStr.join('');
+// }
+
+// console.log(caesar("Zoel is great!!!", 3))
+
+// const sepStr = (str) => {
+//     const wordsSplit = str.split(' ');
+//     const wordCount = wordsSplit.length;
+//     const longestWord = wordsSplit.reduce((a, b) => {
+//         return a.length > b.length ? a : b;
+//     })
+//     const wordsArray = [];
+//     for (let i = 0; i < longestWord.length; i++) {
+//         wordsArray[i] = [];
+//         for (let j = 0; j < wordCount; j++) {
+//             wordsArray[i][j] = wordsSplit[j] ? wordsSplit[j][i] ? wordsSplit[j][i] : '' : ''
+//         }
+//     };
+//     return wordsArray;
+// }
+
+// console.table(sepStr('Just Live Life Man'))
+// console.table(sepStr("The Mitochondria is the powerhouse of the cell"))
+// console.table(sepStr("I love coding so much I asked myself - what if the word count was higher than the length of the longest word?"))
+
+const happyNumbers = (num, steps) => {
+    if (num === 1) {
+        return true;
     }
-    return digits;
+    numSplit = String(num).split('').map((num) => Number(num));
+    sumOfSquares = numSplit.map((num) => num**2).reduce((a, b) => {
+        return a + b;
+    });
+    return happyNumbers(sumOfSquares);
 }
 
-const tenCheck = (digits) => {
-    return digits.length === 10 ? digits : '0000000000';
+console.log(happyNumbers(7));
+console.log(happyNumbers(49));
+console.log(happyNumbers(97));
+console.log(happyNumbers(130));
+console.log(happyNumbers(10));
+console.log(happyNumbers(1));
+
+// console.log(happyNumbers(8))
+
+const happyChappy = {
+    isHappy: function (number) {
+        // start with empty set
+        const set = new Set([number]);
+        // loop while number is not equal to 1
+        while (number !== 1) {
+            // apply algorithm
+            number = this.sumSquare(number);
+            // add new number to SET
+            const prevSize = set.size;
+            set.add(number);
+            // check if size of set has changed
+            if (set.size === prevSize) {
+                // if size of set has not changed, return false
+                return false;
+            }
+        }
+        return true;
+    },
+    
+    sumSquare: function (number) {
+        // suppose we have array of its squared digits
+        return this.squareDigits(number).reduce((prev, curr) => prev + curr);
+    },
+
+    squareDigits: function (number) {
+        // needs to convert number into array of its squared digits
+        // convert number into string
+        number = number.toString();
+        // split the string on every character 
+        const StringyDigits = number.split('');
+
+        // map method to convert each stringy charcter into a number and square it
+        return StringyDigits.map(stringyDigit => Number(stringyDigit) * Number(stringyDigit));
+    }
 }
 
-const formatNumber = (digits) => {
-    const first = digits.substring(0, 3);
-    const second = digits.substring(0, 6);
-    const third = digits.substring(6);
-    return `(${first} ${second}-${third})`;
-}
+console.log(happyChappy.isHappy(7)); // => true
+console.log(happyChappy.isHappy(3)); // => false

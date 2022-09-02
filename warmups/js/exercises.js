@@ -648,62 +648,174 @@ console.log(timeConvert('12:29:28AM'));
 // console.table(sepStr("The Mitochondria is the powerhouse of the cell"))
 // console.table(sepStr("I love coding so much I asked myself - what if the word count was higher than the length of the longest word?"))
 
-const happyNumbers = (num, steps) => {
-    if (num === 1) {
-        return true;
-    }
-    numSplit = String(num).split('').map((num) => Number(num));
-    sumOfSquares = numSplit.map((num) => num**2).reduce((a, b) => {
-        return a + b;
-    });
-    return happyNumbers(sumOfSquares);
-}
+// const happyNumbers = (num, steps) => {
+//     if (num === 1) {
+//         return true;
+//     }
+//     numSplit = String(num).split('').map((num) => Number(num));
+//     sumOfSquares = numSplit.map((num) => num**2).reduce((a, b) => {
+//         return a + b;
+//     });
+//     return happyNumbers(sumOfSquares);
+// }
 
-console.log(happyNumbers(7));
-console.log(happyNumbers(49));
-console.log(happyNumbers(97));
-console.log(happyNumbers(130));
-console.log(happyNumbers(10));
-console.log(happyNumbers(1));
+// console.log(happyNumbers(7));
+// console.log(happyNumbers(49));
+// console.log(happyNumbers(97));
+// console.log(happyNumbers(130));
+// console.log(happyNumbers(10));
+// console.log(happyNumbers(1));
 
-// console.log(happyNumbers(8))
+// // console.log(happyNumbers(8))
 
-const happyChappy = {
-    isHappy: function (number) {
-        // start with empty set
-        const set = new Set([number]);
-        // loop while number is not equal to 1
-        while (number !== 1) {
-            // apply algorithm
-            number = this.sumSquare(number);
-            // add new number to SET
-            const prevSize = set.size;
-            set.add(number);
-            // check if size of set has changed
-            if (set.size === prevSize) {
-                // if size of set has not changed, return false
-                return false;
-            }
-        }
-        return true;
-    },
+// const happyChappy = {
+//     isHappy: function (number) {
+//         // start with empty set
+//         const set = new Set([number]);
+//         // loop while number is not equal to 1
+//         while (number !== 1) {
+//             // apply algorithm
+//             number = this.sumSquare(number);
+//             // add new number to SET
+//             const prevSize = set.size;
+//             set.add(number);
+//             // check if size of set has changed
+//             if (set.size === prevSize) {
+//                 // if size of set has not changed, return false
+//                 return false;
+//             }
+//         }
+//         return true;
+//     },
     
-    sumSquare: function (number) {
-        // suppose we have array of its squared digits
-        return this.squareDigits(number).reduce((prev, curr) => prev + curr);
-    },
+//     sumSquare: function (number) {
+//         // suppose we have array of its squared digits
+//         return this.squareDigits(number).reduce((prev, curr) => prev + curr);
+//     },
 
-    squareDigits: function (number) {
-        // needs to convert number into array of its squared digits
-        // convert number into string
-        number = number.toString();
-        // split the string on every character 
-        const StringyDigits = number.split('');
+//     squareDigits: function (number) {
+//         // needs to convert number into array of its squared digits
+//         // convert number into string
+//         number = number.toString();
+//         // split the string on every character 
+//         const StringyDigits = number.split('');
 
-        // map method to convert each stringy charcter into a number and square it
-        return StringyDigits.map(stringyDigit => Number(stringyDigit) * Number(stringyDigit));
+//         // map method to convert each stringy charcter into a number and square it
+//         return StringyDigits.map(stringyDigit => Number(stringyDigit) * Number(stringyDigit));
+//     }
+// }
+
+// console.log(happyChappy.isHappy(7)); // => true
+// console.log(happyChappy.isHappy(3)); // => false
+
+// vowel count
+// function getCount(str) {
+//   return (str.match(/[aeiou]/ig)||[]).length;
+// }
+
+// const firstNonRepeat = (str) => {
+//     const splitStr = str.toLowerCase().split('');
+//     for (let i = 0; i < splitStr.length; i++) {
+//         const restOfWord = [...splitStr.slice(0, i), ...splitStr.slice(i + 1)];
+//         if (!restOfWord.includes(splitStr[i])) {
+//             return str[i]; 
+//         }
+//     }
+//     return '';
+// }
+
+// console.log(firstNonRepeat('rooster')) // => "s"
+// console.log(firstNonRepeat("minimal")) // => "n"
+// console.log(firstNonRepeat("xoxo")) // => ""
+// console.log(firstNonRepeat("Bob")) // => "o"
+// console.log(firstNonRepeat("sTreSS")) // => "T"
+
+// const fnrLoden = (string) => {
+//     const charArray = string.split('');
+
+//     const charCounts = {};
+
+//     charArray.forEach( char => {
+//         if (charCounts[char] === undefined) {
+//             charCounts[char] = 1;
+//         } else {
+//             charCounts[char]++;
+//         }
+//     });
+
+//     for (let char of charArray) {
+//         if (charCounts[char] === 1) {
+//             return char;
+//         }
+//     }
+    
+//     return '';
+// }
+
+// console.log(fnrLoden('rooster'));
+// console.log(fnrLoden('minimal'));
+// console.log(fnrLoden('xoxo'));
+// console.log(fnrLoden('Bob'));
+// console.log(fnrLoden('sTreSS'));
+
+const incrementString = (str) => {
+    const numArray = str.match(/[0-9]/g);
+    if (numArray) {
+        const num = Number(numArray.join(''));
+        const incrementedNum = num + 1;
+        if (String(incrementedNum).length > String(num).length && numArray[0] === '0') {
+            return str.slice(0, -String(incrementedNum).length) + (incrementedNum);
+        }
+        return str.slice(0, -String(num).length) + (incrementedNum);
     }
+    return str + 1;
 }
 
-console.log(happyChappy.isHappy(7)); // => true
-console.log(happyChappy.isHappy(3)); // => false
+console.log(incrementString("foo"));      // => "foo1"
+console.log(incrementString("foobar23")); // => "foobar24"
+console.log(incrementString("foo0042"));  // => "foo0043"
+console.log(incrementString("foo9"));     // => "foo10"
+console.log(incrementString("foo099"));   // => "foo100"
+console.log(incrementString("foo00099")); // => "foo00100"
+
+console.log('loden')
+
+function incrementLoden(string) {
+    let numberIndex;
+    // loop backwards through string
+    for (let i = string.length - 1; i >= 0; i--) {
+        const char = string[i];
+        // for each character, check if its a number
+        if (isNaN(Number(char))) {
+            // if not a number, break out of loop
+            break;
+        }
+        // if number, store index
+        numberIndex = i;
+    }
+
+    if (numberIndex === undefined) return string + 1;
+
+    // break up our string into word and number components 
+    let endNumber = string.slice(numberIndex);
+    string = string.slice(0, numberIndex);
+
+    const digitCount = endNumber.length;
+    
+    // convert endNumber into a number and add 1 
+    endNumber = Number(endNumber) + 1;
+
+    endNumber = (String(endNumber)).padStart(digitCount, '0')
+
+    // join endNumber back onto string and return
+    return string + endNumber
+    
+}
+
+console.log(incrementLoden('foo123'));
+console.log(incrementLoden("foo"));
+console.log(incrementLoden("foobar23"));
+console.log(incrementLoden("foo0042"));
+console.log(incrementLoden("foo9"));
+console.log(incrementLoden("foo099"));
+console.log(incrementLoden("foo00099"));

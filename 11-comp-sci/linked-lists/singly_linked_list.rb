@@ -1,4 +1,7 @@
 class SinglyLinkedList
+
+	include Enumerable # mixin: simulating inheriting from multiple classes
+	
 	class Node 
 		attr_accessor :value, :next
 	
@@ -35,7 +38,11 @@ class SinglyLinkedList
 
 	# TODO: More methods
 	def remove # AKA .shift() -- remove the first node
-		@head = @head.next
+		if @head
+			previous_head = @head
+			@head = previous_head.next
+			previous_head.value
+		end
 	end
 
 	def insert_after(node, new_value)
@@ -52,15 +59,27 @@ class SinglyLinkedList
 
 	# Tricky
 	def reverse # non-destructive
-		p last 
+		reversed_list = SinglyLinkedList.new
+		current_node = @head
+		while current_node
+			reversed_list.prepend current_node.value
+			current_node = current_node.next # walking/stepping through the list
+		end
+		reversed_list
 	end
 
 	# Trickier
 	def reverse!
+		@head = self.reverse.head
 	end
 
 	# Trickiest
 	def each
+		current_node = @head
+		while current_node
+			yield current_node.value if block_given? # execute the do/end block
+			current_node = current_node.next
+		end
 	end
 
 	# Bonus: .map(), .reduce(), .select(), .reject(), .length AKA .size() AKA .count()
@@ -68,11 +87,14 @@ class SinglyLinkedList
 end
 
 bros = SinglyLinkedList.new 'Groucho'
+bros.append 'Harpo'
+bros.append 'Chico'
+
 empty_list = SinglyLinkedList.new
 
-# bros.each do |b|
-# 	puts b
-# end
+bros.each do |b|
+	puts b
+end
 
 require 'pry'
 binding.pry

@@ -1,0 +1,940 @@
+# Nmap 7.80 scan initiated Thu Sep  1 16:43:36 2022 as: nmap -Pn -sS -oA scan -p 80 -iR 0 -vvv --open
+Nmap scan report for cloudserver087309.home.pl (79.96.143.187)
+Host is up, received user-set (0.34s latency).
+Scanned at 2022-09-01 16:46:56 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 53
+
+Nmap scan report for 213.159.210.242
+Host is up, received user-set (0.20s latency).
+Scanned at 2022-09-01 16:47:17 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 56
+
+Nmap scan report for 359665.cloudwaysapps.com (159.203.59.204)
+Host is up, received user-set (0.22s latency).
+Scanned at 2022-09-01 16:47:13 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for 157.245.106.87
+Host is up, received user-set (0.14s latency).
+Scanned at 2022-09-01 16:46:48 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for 167.203.45.100
+Host is up, received user-set (0.38s latency).
+Scanned at 2022-09-01 16:47:10 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 242
+
+Nmap scan report for 103.243.20.26
+Host is up, received user-set (0.25s latency).
+Scanned at 2022-09-01 16:47:08 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 243
+
+Nmap scan report for a184-31-229-102.deploy.static.akamaitechnologies.com (184.31.229.102)
+Host is up, received user-set (0.37s latency).
+Scanned at 2022-09-01 16:47:10 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 53
+
+Nmap scan report for 155.98.17.129
+Host is up, received user-set (0.18s latency).
+Scanned at 2022-09-01 16:46:49 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for static-189.206.222-249.alestra.net.mx (189.206.222.249)
+Host is up, received user-set (0.25s latency).
+Scanned at 2022-09-01 16:47:07 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 240
+
+Nmap scan report for ti0580q162-0273.bb.online.no (109.189.137.21)
+Host is up, received user-set (0.35s latency).
+Scanned at 2022-09-01 16:46:44 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 48
+
+Nmap scan report for 196.192.2.5
+Host is up, received user-set (0.22s latency).
+Scanned at 2022-09-01 16:46:43 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for 45.60.117.134
+Host is up, received user-set (0.30s latency).
+Scanned at 2022-09-01 16:46:49 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 55
+
+Nmap scan report for 23.226.4.141
+Host is up, received user-set (0.28s latency).
+Scanned at 2022-09-01 16:46:49 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 50
+
+Nmap scan report for server-65-8-112-204.kul50.r.cloudfront.net (65.8.112.204)
+Host is up, received user-set (0.25s latency).
+Scanned at 2022-09-01 16:47:11 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 238
+
+Nmap scan report for vps-343407b7.vps.ovh.net (146.59.92.90)
+Host is up, received user-set (0.46s latency).
+Scanned at 2022-09-01 16:47:10 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 46
+
+Nmap scan report for 143.198.136.244
+Host is up, received user-set (0.20s latency).
+Scanned at 2022-09-01 16:47:17 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 55
+
+Nmap scan report for 117.193.14.13
+Host is up, received user-set (0.20s latency).
+Scanned at 2022-09-01 16:46:44 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+adjust_timeouts2: packet supposedly had rtt of 11292117 microseconds.  Ignoring time.
+Nmap scan report for ec2-35-175-80-1.compute-1.amazonaws.com (35.175.80.1)
+Host is up, received user-set (0.33s latency).
+Scanned at 2022-09-01 16:47:19 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 238
+
+Nmap scan report for a23-8-50-82.deploy.static.akamaitechnologies.com (23.8.50.82)
+Host is up, received user-set (0.22s latency).
+Scanned at 2022-09-01 16:47:34 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 57
+
+Nmap scan report for ec2-108-137-121-2.ap-southeast-3.compute.amazonaws.com (108.137.121.2)
+Host is up, received user-set (0.19s latency).
+Scanned at 2022-09-01 16:47:20 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 243
+
+Nmap scan report for mail.teachnologylead.com (38.19.162.128)
+Host is up, received user-set (0.20s latency).
+Scanned at 2022-09-01 16:47:29 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 53
+
+Nmap scan report for ext.nl.anycast.li (192.71.151.17)
+Host is up, received user-set (0.35s latency).
+Scanned at 2022-09-01 16:47:22 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for www.oregonartscommission.org (45.79.66.28)
+Host is up, received user-set (0.27s latency).
+Scanned at 2022-09-01 16:47:24 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 57
+
+Nmap scan report for view.mailer.nomobank.com (161.71.108.112)
+Host is up, received user-set (0.31s latency).
+Scanned at 2022-09-01 16:47:28 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 238
+
+Nmap scan report for 52.174.187.224
+Host is up, received user-set (0.25s latency).
+Scanned at 2022-09-01 16:47:32 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 109
+
+Nmap scan report for a2-18-140-38.deploy.static.akamaitechnologies.com (2.18.140.38)
+Host is up, received user-set (0.37s latency).
+Scanned at 2022-09-01 16:47:24 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 52
+
+Nmap scan report for 193.123.104.128
+Host is up, received user-set (0.47s latency).
+Scanned at 2022-09-01 16:47:36 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 50
+
+Nmap scan report for v000524.fhnw.ch (147.86.10.128)
+Host is up, received user-set (0.34s latency).
+Scanned at 2022-09-01 16:47:34 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 106
+
+Nmap scan report for 155.100.238.237
+Host is up, received user-set (0.18s latency).
+Scanned at 2022-09-01 16:47:35 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for ec2-54-201-174-112.us-west-2.compute.amazonaws.com (54.201.174.112)
+Host is up, received user-set (0.19s latency).
+Scanned at 2022-09-01 16:47:28 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 235
+
+Nmap scan report for 154.85.217.51
+Host is up, received user-set (0.37s latency).
+Scanned at 2022-09-01 16:47:36 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 115
+
+Nmap scan report for a23-200-122-50.deploy.static.akamaitechnologies.com (23.200.122.50)
+Host is up, received user-set (0.24s latency).
+Scanned at 2022-09-01 16:47:25 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for dynamic-37-142-224-115.hotnet.net.il (37.142.224.115)
+Host is up, received user-set (0.39s latency).
+Scanned at 2022-09-01 16:47:50 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 53
+
+Nmap scan report for 172.120.102.238
+Host is up, received user-set (0.18s latency).
+Scanned at 2022-09-01 16:47:59 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 121
+
+Nmap scan report for ec2-3-15-196-158.us-east-2.compute.amazonaws.com (3.15.196.158)
+Host is up, received user-set (0.35s latency).
+Scanned at 2022-09-01 16:47:56 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 41
+
+Nmap scan report for 185.150.39.206
+Host is up, received user-set (0.32s latency).
+Scanned at 2022-09-01 16:47:53 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for 52.242.27.165
+Host is up, received user-set (0.22s latency).
+Scanned at 2022-09-01 16:47:52 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 43
+
+Nmap scan report for 190.200.178.218
+Host is up, received user-set (0.39s latency).
+Scanned at 2022-09-01 16:47:53 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 45
+
+Nmap scan report for 156.248.205.87
+Host is up, received user-set (0.26s latency).
+Scanned at 2022-09-01 16:47:49 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 117
+
+Nmap scan report for 186-65-232-9.bam.movistar.cl (186.65.232.9)
+Host is up, received user-set (0.39s latency).
+Scanned at 2022-09-01 16:47:45 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 117
+
+Nmap scan report for ec2-35-169-254-82.compute-1.amazonaws.com (35.169.254.82)
+Host is up, received user-set (0.22s latency).
+Scanned at 2022-09-01 16:47:59 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 238
+
+Nmap scan report for 61-221-41-129.hinet-ip.hinet.net (61.221.41.129)
+Host is up, received user-set (0.15s latency).
+Scanned at 2022-09-01 16:47:59 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for 129.219.181.5
+Host is up, received user-set (0.23s latency).
+Scanned at 2022-09-01 16:47:45 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 243
+
+Nmap scan report for a184-87-230-216.deploy.static.akamaitechnologies.com (184.87.230.216)
+Host is up, received user-set (0.15s latency).
+Scanned at 2022-09-01 16:47:58 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 56
+
+Nmap scan report for cp1-65-39-240-75.canadianwebhosting.com (65.39.240.75)
+Host is up, received user-set (0.18s latency).
+Scanned at 2022-09-01 16:49:13 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 55
+
+Nmap scan report for 132.145.33.239
+Host is up, received user-set (0.30s latency).
+Scanned at 2022-09-01 16:49:16 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for a17af2de142d754f7.awsglobalaccelerator.com (15.197.240.27)
+Host is up, received user-set (0.019s latency).
+Scanned at 2022-09-01 16:48:09 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 247
+
+Nmap scan report for ec2-52-29-42-196.eu-central-1.compute.amazonaws.com (52.29.42.196)
+Host is up, received user-set (0.31s latency).
+Scanned at 2022-09-01 16:49:03 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 240
+
+Nmap scan report for 172.65.15.130
+Host is up, received user-set (0.076s latency).
+Scanned at 2022-09-01 16:49:10 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 58
+
+Nmap scan report for aos19.acervodedvds.com.br (204.188.200.122)
+Host is up, received user-set (0.27s latency).
+Scanned at 2022-09-01 16:48:49 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 56
+
+Nmap scan report for a23-74-227-138.deploy.static.akamaitechnologies.com (23.74.227.138)
+Host is up, received user-set (0.38s latency).
+Scanned at 2022-09-01 16:48:54 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for 154.219.69.214
+Host is up, received user-set (0.23s latency).
+Scanned at 2022-09-01 16:49:17 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 116
+
+Nmap scan report for 458462.cloudwaysapps.com (157.245.111.154)
+Host is up, received user-set (0.18s latency).
+Scanned at 2022-09-01 16:48:57 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for sch1.nc.hcc.edu.tw (163.19.1.131)
+Host is up, received user-set (0.47s latency).
+Scanned at 2022-09-01 16:49:10 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 50
+
+Nmap scan report for a104-101-59-40.deploy.static.akamaitechnologies.com (104.101.59.40)
+Host is up, received user-set (0.31s latency).
+Scanned at 2022-09-01 16:49:08 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 57
+
+Nmap scan report for 37-58.med.utah.edu (155.100.37.58)
+Host is up, received user-set (0.21s latency).
+Scanned at 2022-09-01 16:48:27 AEST for 7s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for a23-13-160-187.deploy.static.akamaitechnologies.com (23.13.160.187)
+Host is up, received user-set (0.23s latency).
+Scanned at 2022-09-01 16:49:14 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for vwp70421.kagoya.net (133.18.47.179)
+Host is up, received user-set (0.25s latency).
+Scanned at 2022-09-01 16:49:00 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 47
+
+Nmap scan report for a104-91-17-212.deploy.static.akamaitechnologies.com (104.91.17.212)
+Host is up, received user-set (0.33s latency).
+Scanned at 2022-09-01 16:51:59 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 55
+
+Nmap scan report for topagro.skalbmierz.com (185.124.129.5)
+Host is up, received user-set (0.32s latency).
+Scanned at 2022-09-01 16:51:46 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 53
+
+Nmap scan report for 178.248.90.186
+Host is up, received user-set (0.34s latency).
+Scanned at 2022-09-01 16:51:56 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 33
+
+Nmap scan report for mail.acute-swe.com (138.201.172.177)
+Host is up, received user-set (0.32s latency).
+Scanned at 2022-09-01 16:51:52 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 47
+
+Nmap scan report for 91.147.174.67
+Host is up, received user-set (0.39s latency).
+Scanned at 2022-09-01 16:51:49 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for ec2-52-214-12-90.eu-west-1.compute.amazonaws.com (52.214.12.90)
+Host is up, received user-set (0.32s latency).
+Scanned at 2022-09-01 16:51:50 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 232
+
+Nmap scan report for a104-107-87-29.deploy.static.akamaitechnologies.com (104.107.87.29)
+Host is up, received user-set (0.28s latency).
+Scanned at 2022-09-01 16:51:48 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 53
+
+Nmap scan report for vmi645442.contaboserver.net (161.97.151.225)
+Host is up, received user-set (0.31s latency).
+Scanned at 2022-09-01 16:51:53 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 53
+
+Nmap scan report for 154.218.91.170
+Host is up, received user-set (0.23s latency).
+Scanned at 2022-09-01 16:51:58 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 50
+
+Nmap scan report for 243.245.52.179.d.dyn.claro.net.do (179.52.245.243)
+Host is up, received user-set (0.25s latency).
+Scanned at 2022-09-01 16:51:54 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 55
+
+Nmap scan report for a104-78-113-233.deploy.static.akamaitechnologies.com (104.78.113.233)
+Host is up, received user-set (0.23s latency).
+Scanned at 2022-09-01 16:51:53 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 56
+
+Nmap scan report for 93-38-125-14.ip70.fastwebnet.it (93.38.125.14)
+Host is up, received user-set (0.37s latency).
+Scanned at 2022-09-01 16:51:47 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 43
+
+Nmap scan report for 119-71.static.ipcserver.net (193.19.119.71)
+Host is up, received user-set (0.35s latency).
+Scanned at 2022-09-01 16:51:57 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for 45-33-221-18.ctcweb.net (45.33.221.18)
+Host is up, received user-set (0.31s latency).
+Scanned at 2022-09-01 16:51:47 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for ec2-18-195-89-255.eu-central-1.compute.amazonaws.com (18.195.89.255)
+Host is up, received user-set (0.43s latency).
+Scanned at 2022-09-01 16:51:54 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 239
+
+Nmap scan report for 123.101.232.16
+Host is up, received user-set (0.37s latency).
+Scanned at 2022-09-01 16:51:47 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for a23-74-64-80.deploy.static.akamaitechnologies.com (23.74.64.80)
+Host is up, received user-set (0.18s latency).
+Scanned at 2022-09-01 16:51:50 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 55
+
+Nmap scan report for hydrogen.hostmaster.com.au (203.132.1.59)
+Host is up, received user-set (0.0078s latency).
+Scanned at 2022-09-01 16:51:49 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for 81.70.227.57
+Host is up, received user-set (0.37s latency).
+Scanned at 2022-09-01 16:51:49 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for unn-84-17-56-16.cdn77.com (84.17.56.16)
+Host is up, received user-set (0.31s latency).
+Scanned at 2022-09-01 16:51:47 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 52
+
+Nmap scan report for jotex.lifinnac.com (208.110.81.85)
+Host is up, received user-set (0.19s latency).
+Scanned at 2022-09-01 16:51:50 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 50
+
+Nmap scan report for bras-base-okvlon3010w-grc-76-64-229-203-224.dsl.bell.ca (64.229.203.224)
+Host is up, received user-set (0.23s latency).
+Scanned at 2022-09-01 16:52:21 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 45
+
+Nmap scan report for 216.240.127.139
+Host is up, received user-set (0.19s latency).
+Scanned at 2022-09-01 16:52:15 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 244
+
+Nmap scan report for 154.221.94.91
+Host is up, received user-set (0.23s latency).
+Scanned at 2022-09-01 16:52:13 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for li798-110.members.linode.com (104.200.20.110)
+Host is up, received user-set (0.20s latency).
+Scanned at 2022-09-01 16:52:15 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for a23-10-193-205.deploy.static.akamaitechnologies.com (23.10.193.205)
+Host is up, received user-set (0.19s latency).
+Scanned at 2022-09-01 16:52:18 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 55
+
+Nmap scan report for asterion-partner2.vivitiapp.com (70.33.223.205)
+Host is up, received user-set (0.20s latency).
+Scanned at 2022-09-01 16:52:23 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for ec2-3-135-97-171.us-east-2.compute.amazonaws.com (3.135.97.171)
+Host is up, received user-set (0.23s latency).
+Scanned at 2022-09-01 16:52:20 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 232
+
+Nmap scan report for 151.237.92.107
+Host is up, received user-set (0.34s latency).
+Scanned at 2022-09-01 16:52:23 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 52
+
+Nmap scan report for host14.181-117-240.telmex.net.ar (181.117.240.14)
+Host is up, received user-set (0.65s latency).
+Scanned at 2022-09-01 16:52:09 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 114
+
+Nmap scan report for 204.152.220.129.static.quadranet.com (204.152.220.129)
+Host is up, received user-set (0.17s latency).
+Scanned at 2022-09-01 16:52:23 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for server-13-35-124-140.sfo5.r.cloudfront.net (13.35.124.140)
+Host is up, received user-set (0.16s latency).
+Scanned at 2022-09-01 16:52:16 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 244
+
+Nmap scan report for c-73-243-216-42.hsd1.co.comcast.net (73.243.216.42)
+Host is up, received user-set (0.79s latency).
+Scanned at 2022-09-01 16:52:10 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 50
+
+Nmap scan report for 156.252.129.234
+Host is up, received user-set (0.17s latency).
+Scanned at 2022-09-01 16:52:21 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 117
+
+Nmap scan report for cpe-74-137-58-123.kya.res.rr.com (74.137.58.123)
+Host is up, received user-set (0.24s latency).
+Scanned at 2022-09-01 16:52:15 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 46
+
+Nmap scan report for ip82-148-183-208.brdy.online (82.148.183.208)
+Host is up, received user-set (0.33s latency).
+Scanned at 2022-09-01 16:52:18 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 50
+
+Nmap scan report for view.email.shepardes.com (13.111.199.182)
+Host is up, received user-set (0.21s latency).
+Scanned at 2022-09-01 16:52:20 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 244
+
+Nmap scan report for 40.118.209.55
+Host is up, received user-set (0.17s latency).
+Scanned at 2022-09-01 16:52:35 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 47
+
+Nmap scan report for a23-7-126-128.deploy.static.akamaitechnologies.com (23.7.126.128)
+Host is up, received user-set (0.25s latency).
+Scanned at 2022-09-01 16:52:38 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 52
+
+Nmap scan report for 81.200.119.223
+Host is up, received user-set (0.37s latency).
+Scanned at 2022-09-01 16:52:42 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 48
+
+Nmap scan report for ec2-18-230-177-61.sa-east-1.compute.amazonaws.com (18.230.177.61)
+Host is up, received user-set (0.41s latency).
+Scanned at 2022-09-01 16:52:48 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 112
+
+Nmap scan report for 76.133.120.34.bc.googleusercontent.com (34.120.133.76)
+Host is up, received user-set (0.0075s latency).
+Scanned at 2022-09-01 16:52:36 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 123
+
+Nmap scan report for a104-118-11-116.deploy.static.akamaitechnologies.com (104.118.11.116)
+Host is up, received user-set (0.26s latency).
+Scanned at 2022-09-01 16:52:38 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 56
+
+Nmap scan report for 8.129.235.146
+Host is up, received user-set (0.35s latency).
+Scanned at 2022-09-01 16:52:39 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 46
+
+Nmap scan report for a23-205-6-147.deploy.static.akamaitechnologies.com (23.205.6.147)
+Host is up, received user-set (0.27s latency).
+Scanned at 2022-09-01 16:52:39 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 46
+
+Nmap scan report for 160.178.4.241
+Host is up, received user-set (0.34s latency).
+Scanned at 2022-09-01 16:52:42 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 45
+
+Nmap scan report for 82.165.68.129
+Host is up, received user-set (0.30s latency).
+Scanned at 2022-09-01 16:52:38 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for a23-215-235-5.deploy.static.akamaitechnologies.com (23.215.235.5)
+Host is up, received user-set (0.022s latency).
+Scanned at 2022-09-01 16:52:48 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 53
+
+Nmap scan report for 203.227.11.164
+Host is up, received user-set (0.35s latency).
+Scanned at 2022-09-01 16:52:40 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 112
+
+Nmap scan report for 84.45.44.4
+Host is up, received user-set (0.32s latency).
+Scanned at 2022-09-01 16:52:43 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 114
+
+Nmap scan report for ec2-13-114-70-110.ap-northeast-1.compute.amazonaws.com (13.114.70.110)
+Host is up, received user-set (0.16s latency).
+Scanned at 2022-09-01 16:52:38 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 235
+
+Nmap scan report for a104-97-218-216.deploy.static.akamaitechnologies.com (104.97.218.216)
+Host is up, received user-set (0.33s latency).
+Scanned at 2022-09-01 16:52:46 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 50
+
+Nmap scan report for 59-125-195-38.hinet-ip.hinet.net (59.125.195.38)
+Host is up, received user-set (0.25s latency).
+Scanned at 2022-09-01 16:52:35 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for a104-85-235-101.deploy.static.akamaitechnologies.com (104.85.235.101)
+Host is up, received user-set (0.017s latency).
+Scanned at 2022-09-01 16:52:44 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 56
+
+Nmap scan report for 206.184.23.175.adsl-pool.jlccptt.net.cn (175.23.184.206)
+Host is up, received user-set (0.34s latency).
+Scanned at 2022-09-01 16:52:46 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 114
+
+Nmap scan report for dsl-emcali-190.99.180.68.emcali.net.co (190.99.180.68)
+Host is up, received user-set (0.32s latency).
+Scanned at 2022-09-01 16:52:49 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for 47.98.149.65
+Host is up, received user-set (0.34s latency).
+Scanned at 2022-09-01 16:52:36 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 47
+
+Nmap scan report for 403180.cloudwaysapps.com (178.62.39.212)
+Host is up, received user-set (0.34s latency).
+Scanned at 2022-09-01 16:52:46 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for 134.209.109.170
+Host is up, received user-set (0.10s latency).
+Scanned at 2022-09-01 16:53:52 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 54
+
+Nmap scan report for 154.55.167.78
+Host is up, received user-set (0.22s latency).
+Scanned at 2022-09-01 16:53:36 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for 121.198.252.252
+Host is up, received user-set (0.42s latency).
+Scanned at 2022-09-01 16:53:55 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 46
+
+Nmap scan report for 66.22.9.214
+Host is up, received user-set (0.23s latency).
+Scanned at 2022-09-01 16:53:49 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 52
+
+Nmap scan report for 168.188.86.141
+Host is up, received user-set (0.21s latency).
+Scanned at 2022-09-01 16:53:45 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for 178-168-48-35.starnet.md (178.168.48.35)
+Host is up, received user-set (0.35s latency).
+Scanned at 2022-09-01 16:53:53 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 52
+
+Nmap scan report for mail-ajdg-hi.gazduireweb.ro (217.156.47.89)
+Host is up, received user-set (0.33s latency).
+Scanned at 2022-09-01 16:53:36 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 52
+
+Nmap scan report for static.208.241.46.78.clients.your-server.de (78.46.241.208)
+Host is up, received user-set (0.32s latency).
+Scanned at 2022-09-01 16:53:49 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 48
+
+Nmap scan report for 143.248.55.120
+Host is up, received user-set (0.24s latency).
+Scanned at 2022-09-01 16:53:41 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for 155.159.118.227
+Host is up, received user-set (0.23s latency).
+Scanned at 2022-09-01 16:53:50 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 50
+
+Nmap scan report for ec2-35-166-4-178.us-west-2.compute.amazonaws.com (35.166.4.178)
+Host is up, received user-set (0.19s latency).
+Scanned at 2022-09-01 16:53:47 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 235
+
+Nmap scan report for 185.230.244.173
+Host is up, received user-set (0.42s latency).
+Scanned at 2022-09-01 16:53:47 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 51
+
+Nmap scan report for 147.182.176.184
+Host is up, received user-set (0.42s latency).
+Scanned at 2022-09-01 16:53:47 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for ec2-52-30-213-50.eu-west-1.compute.amazonaws.com (52.30.213.50)
+Host is up, received user-set (0.41s latency).
+Scanned at 2022-09-01 16:53:55 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 42
+
+Nmap scan report for 46.251.129.13
+Host is up, received user-set (0.30s latency).
+Scanned at 2022-09-01 16:53:50 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 42
+
+Nmap scan report for server-13-225-21-64.bru50.r.cloudfront.net (13.225.21.64)
+Host is up, received user-set (0.30s latency).
+Scanned at 2022-09-01 16:53:53 AEST for 1s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 238
+
+Nmap scan report for 178.132.223.93
+Host is up, received user-set (0.34s latency).
+Scanned at 2022-09-01 16:53:36 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 49
+
+Nmap scan report for a104-99-202-151.deploy.static.akamaitechnologies.com (104.99.202.151)
+Host is up, received user-set (0.057s latency).
+Scanned at 2022-09-01 16:53:45 AEST for 0s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 56
+

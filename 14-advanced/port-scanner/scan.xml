@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Sep  1 16:43:36 2022 as: nmap -Pn -sS -oA scan -p 80 -iR 0 -vvv -&#45;open -->
+<nmaprun scanner="nmap" args="nmap -Pn -sS -oA scan -p 80 -iR 0 -vvv -&#45;open" start="1662014616" startstr="Thu Sep  1 16:43:36 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="80"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="Parallel DNS resolution of 4096 hosts." time="1662014616"/>
+<taskend task="Parallel DNS resolution of 4096 hosts." time="1662014801"/>
+<taskbegin task="SYN Stealth Scan" time="1662014801"/>
+<taskend task="SYN Stealth Scan" time="1662014839" extrainfo="1024 total ports"/>
+<host starttime="1662014816" endtime="1662014816"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="79.96.143.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="cloudserver087309.home.pl" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="341238" rttvar="158598" to="975630"/>
+</host>
+<host starttime="1662014837" endtime="1662014837"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="213.159.210.242" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="56"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="195495" rttvar="195495" to="977475"/>
+</host>
+<host starttime="1662014833" endtime="1662014833"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="159.203.59.204" addrtype="ipv4"/>
+<hostnames>
+<hostname name="359665.cloudwaysapps.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="222228" rttvar="169018" to="898300"/>
+</host>
+<host starttime="1662014808" endtime="1662014808"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.245.106.87" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="140325" rttvar="140325" to="701625"/>
+</host>
+<host starttime="1662014830" endtime="1662014830"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="167.203.45.100" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="242"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="376066" rttvar="376066" to="1880330"/>
+</host>
+<host starttime="1662014828" endtime="1662014828"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="103.243.20.26" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="243"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="251192" rttvar="203502" to="1065200"/>
+</host>
+<host starttime="1662014830" endtime="1662014830"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="184.31.229.102" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a184-31-229-102.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="369997" rttvar="369997" to="1849985"/>
+</host>
+<host starttime="1662014809" endtime="1662014809"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="155.98.17.129" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="175326" rttvar="175326" to="876630"/>
+</host>
+<host starttime="1662014827" endtime="1662014827"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="189.206.222.249" addrtype="ipv4"/>
+<hostnames>
+<hostname name="static-189.206.222-249.alestra.net.mx" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="245262" rttvar="245262" to="1226310"/>
+</host>
+<host starttime="1662014804" endtime="1662014804"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="109.189.137.21" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ti0580q162-0273.bb.online.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="352299" rttvar="267655" to="1422919"/>
+</host>
+<host starttime="1662014803" endtime="1662014803"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="196.192.2.5" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="224517" rttvar="224517" to="1122585"/>
+</host>
+<host starttime="1662014809" endtime="1662014809"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="45.60.117.134" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="55"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="301528" rttvar="301528" to="1507640"/>
+</host>
+<host starttime="1662014809" endtime="1662014810"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="23.226.4.141" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="50"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="275392" rttvar="217420" to="1145072"/>
+</host>
+<host starttime="1662014831" endtime="1662014831"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="65.8.112.204" addrtype="ipv4"/>
+<hostnames>
+<hostname name="server-65-8-112-204.kul50.r.cloudfront.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="238"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="246852" rttvar="246852" to="1234260"/>
+</host>
+<host starttime="1662014830" endtime="1662014830"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="146.59.92.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="vps-343407b7.vps.ovh.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="461405" rttvar="461405" to="2307025"/>
+</host>
+<host starttime="1662014837" endtime="1662014837"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="143.198.136.244" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="55"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="201341" rttvar="161203" to="846153"/>
+</host>
+<host starttime="1662014804" endtime="1662014804"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="117.193.14.13" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="199760" rttvar="199760" to="998800"/>
+</host>
+<taskbegin task="SYN Stealth Scan" time="1662014839"/>
+<taskend task="SYN Stealth Scan" time="1662014863" extrainfo="1024 total ports"/>
+<host starttime="1662014839" endtime="1662014840"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="35.175.80.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-35-175-80-1.compute-1.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="238"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="326331" rttvar="326331" to="1631655"/>
+</host>
+<host starttime="1662014854" endtime="1662014854"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="23.8.50.82" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a23-8-50-82.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="57"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="216268" rttvar="216268" to="1081340"/>
+</host>
+<host starttime="1662014840" endtime="1662014840"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="108.137.121.2" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-108-137-121-2.ap-southeast-3.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="243"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="189692" rttvar="169012" to="865740"/>
+</host>
+<host starttime="1662014849" endtime="1662014849"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="38.19.162.128" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.teachnologylead.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="195383" rttvar="152331" to="804707"/>
+</host>
+<host starttime="1662014842" endtime="1662014842"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.71.151.17" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ext.nl.anycast.li" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="349800" rttvar="282976" to="1481704"/>
+</host>
+<host starttime="1662014844" endtime="1662014844"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="45.79.66.28" addrtype="ipv4"/>
+<hostnames>
+<hostname name="www.oregonartscommission.org" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="57"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="268353" rttvar="268353" to="1341765"/>
+</host>
+<host starttime="1662014848" endtime="1662014848"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="161.71.108.112" addrtype="ipv4"/>
+<hostnames>
+<hostname name="view.mailer.nomobank.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="238"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="314385" rttvar="314385" to="1571925"/>
+</host>
+<host starttime="1662014852" endtime="1662014852"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="52.174.187.224" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="109"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="250282" rttvar="250282" to="1251410"/>
+</host>
+<host starttime="1662014844" endtime="1662014844"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="2.18.140.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a2-18-140-38.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="365868" rttvar="365868" to="1829340"/>
+</host>
+<host starttime="1662014856" endtime="1662014857"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="193.123.104.128" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="50"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="466832" rttvar="466832" to="2334160"/>
+</host>
+<host starttime="1662014854" endtime="1662014854"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="147.86.10.128" addrtype="ipv4"/>
+<hostnames>
+<hostname name="v000524.fhnw.ch" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="106"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="341300" rttvar="341300" to="1706500"/>
+</host>
+<host starttime="1662014855" endtime="1662014855"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="155.100.238.237" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="176073" rttvar="176073" to="880365"/>
+</host>
+<host starttime="1662014848" endtime="1662014848"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="54.201.174.112" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-54-201-174-112.us-west-2.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="235"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="189360" rttvar="189360" to="946800"/>
+</host>
+<host starttime="1662014856" endtime="1662014856"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="154.85.217.51" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="115"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="369268" rttvar="369268" to="1846340"/>
+</host>
+<host starttime="1662014845" endtime="1662014845"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="23.200.122.50" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a23-200-122-50.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="242879" rttvar="242879" to="1214395"/>
+</host>
+<taskbegin task="SYN Stealth Scan" time="1662014863"/>
+<taskend task="SYN Stealth Scan" time="1662014882" extrainfo="1024 total ports"/>
+<host starttime="1662014870" endtime="1662014870"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="37.142.224.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="dynamic-37-142-224-115.hotnet.net.il" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="391632" rttvar="391632" to="1958160"/>
+</host>
+<host starttime="1662014879" endtime="1662014879"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="172.120.102.238" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="121"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="178185" rttvar="178185" to="890925"/>
+</host>
+<host starttime="1662014876" endtime="1662014876"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="3.15.196.158" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-3-15-196-158.us-east-2.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="41"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="345980" rttvar="345980" to="1729900"/>
+</host>
+<host starttime="1662014873" endtime="1662014874"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="185.150.39.206" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="319529" rttvar="319529" to="1597645"/>
+</host>
+<host starttime="1662014872" endtime="1662014872"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="52.242.27.165" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="220257" rttvar="220257" to="1101285"/>
+</host>
+<host starttime="1662014873" endtime="1662014874"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="190.200.178.218" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="393640" rttvar="393640" to="1968200"/>
+</host>
+<host starttime="1662014869" endtime="1662014869"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="156.248.205.87" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="117"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="261130" rttvar="261130" to="1305650"/>
+</host>
+<host starttime="1662014865" endtime="1662014866"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="186.65.232.9" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186-65-232-9.bam.movistar.cl" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="117"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="394379" rttvar="306471" to="1620263"/>
+</host>
+<host starttime="1662014879" endtime="1662014879"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="35.169.254.82" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-35-169-254-82.compute-1.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="238"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="215705" rttvar="215705" to="1078525"/>
+</host>
+<host starttime="1662014879" endtime="1662014879"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="61.221.41.129" addrtype="ipv4"/>
+<hostnames>
+<hostname name="61-221-41-129.hinet-ip.hinet.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="148364" rttvar="148364" to="741820"/>
+</host>
+<host starttime="1662014865" endtime="1662014865"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="129.219.181.5" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="243"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="231194" rttvar="231194" to="1155970"/>
+</host>
+<host starttime="1662014878" endtime="1662014878"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="184.87.230.216" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a184-87-230-216.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="56"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="153139" rttvar="153139" to="765695"/>
+</host>
+<taskbegin task="SYN Stealth Scan" time="1662014882"/>
+<taskprogress task="SYN Stealth Scan" time="1662014913" percent="15.19" remaining="174" etc="1662015086"/>
+<taskprogress task="SYN Stealth Scan" time="1662014943" percent="44.09" remaining="78" etc="1662015020"/>
+<taskend task="SYN Stealth Scan" time="1662014958" extrainfo="1024 total ports"/>
+<host starttime="1662014953" endtime="1662014953"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="65.39.240.75" addrtype="ipv4"/>
+<hostnames>
+<hostname name="cp1-65-39-240-75.canadianwebhosting.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="55"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="183130" rttvar="183130" to="915650"/>
+</host>
+<host starttime="1662014956" endtime="1662014956"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="132.145.33.239" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="300147" rttvar="300147" to="1500735"/>
+</host>
+<host starttime="1662014889" endtime="1662014889"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="15.197.240.27" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a17af2de142d754f7.awsglobalaccelerator.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="247"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="18535" rttvar="21228" to="103447"/>
+</host>
+<host starttime="1662014943" endtime="1662014944"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="52.29.42.196" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-52-29-42-196.eu-central-1.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="313232" rttvar="239111" to="1269676"/>
+</host>
+<host starttime="1662014950" endtime="1662014950"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="172.65.15.130" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="58"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="76019" rttvar="76019" to="380095"/>
+</host>
+<host starttime="1662014929" endtime="1662014929"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="204.188.200.122" addrtype="ipv4"/>
+<hostnames>
+<hostname name="aos19.acervodedvds.com.br" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="56"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="270775" rttvar="270775" to="1353875"/>
+</host>
+<host starttime="1662014934" endtime="1662014934"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="23.74.227.138" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a23-74-227-138.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="383632" rttvar="289272" to="1540720"/>
+</host>
+<host starttime="1662014957" endtime="1662014957"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="154.219.69.214" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="116"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="234325" rttvar="234325" to="1171625"/>
+</host>
+<host starttime="1662014937" endtime="1662014937"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.245.111.154" addrtype="ipv4"/>
+<hostnames>
+<hostname name="458462.cloudwaysapps.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="181370" rttvar="153170" to="794050"/>
+</host>
+<host starttime="1662014950" endtime="1662014950"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="163.19.1.131" addrtype="ipv4"/>
+<hostnames>
+<hostname name="sch1.nc.hcc.edu.tw" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="50"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="469981" rttvar="469981" to="2349905"/>
+</host>
+<host starttime="1662014948" endtime="1662014948"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="104.101.59.40" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a104-101-59-40.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="57"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="313682" rttvar="313682" to="1568410"/>
+</host>
+<host starttime="1662014907" endtime="1662014914"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="155.100.37.58" addrtype="ipv4"/>
+<hostnames>
+<hostname name="37-58.med.utah.edu" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="208990" rttvar="77802" to="520198"/>
+</host>
+<host starttime="1662014954" endtime="1662014954"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="23.13.160.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a23-13-160-187.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="228656" rttvar="228656" to="1143280"/>
+</host>
+<host starttime="1662014940" endtime="1662014941"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="133.18.47.179" addrtype="ipv4"/>
+<hostnames>
+<hostname name="vwp70421.kagoya.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="246132" rttvar="184729" to="985048"/>
+</host>
+<taskbegin task="Parallel DNS resolution of 4096 hosts." time="1662014958"/>
+<taskend task="Parallel DNS resolution of 4096 hosts." time="1662015103"/>
+<taskbegin task="SYN Stealth Scan" time="1662015103"/>
+<taskend task="SYN Stealth Scan" time="1662015122" extrainfo="1024 total ports"/>
+<host starttime="1662015119" endtime="1662015119"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="104.91.17.212" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a104-91-17-212.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="55"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="326914" rttvar="326914" to="1634570"/>
+</host>
+<host starttime="1662015106" endtime="1662015106"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="185.124.129.5" addrtype="ipv4"/>
+<hostnames>
+<hostname name="topagro.skalbmierz.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="321491" rttvar="242968" to="1293363"/>
+</host>
+<host starttime="1662015116" endtime="1662015116"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="178.248.90.186" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="33"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="341481" rttvar="341481" to="1707405"/>
+</host>
+<host starttime="1662015112" endtime="1662015112"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="138.201.172.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.acute-swe.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="317577" rttvar="317577" to="1587885"/>
+</host>
+<host starttime="1662015109" endtime="1662015110"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="91.147.174.67" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="385829" rttvar="385829" to="1929145"/>
+</host>
+<host starttime="1662015110" endtime="1662015111"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="52.214.12.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-52-214-12-90.eu-west-1.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="232"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="324904" rttvar="324904" to="1624520"/>
+</host>
+<host starttime="1662015108" endtime="1662015108"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="104.107.87.29" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a104-107-87-29.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="281483" rttvar="281483" to="1407415"/>
+</host>
+<host starttime="1662015113" endtime="1662015114"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="161.97.151.225" addrtype="ipv4"/>
+<hostnames>
+<hostname name="vmi645442.contaboserver.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="308441" rttvar="308441" to="1542205"/>
+</host>
+<host starttime="1662015118" endtime="1662015118"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="154.218.91.170" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="50"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="229006" rttvar="229006" to="1145030"/>
+</host>
+<host starttime="1662015114" endtime="1662015114"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="179.52.245.243" addrtype="ipv4"/>
+<hostnames>
+<hostname name="243.245.52.179.d.dyn.claro.net.do" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="55"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="254916" rttvar="254916" to="1274580"/>
+</host>
+<host starttime="1662015113" endtime="1662015114"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="104.78.113.233" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a104-78-113-233.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="56"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="229003" rttvar="229003" to="1145015"/>
+</host>
+<host starttime="1662015107" endtime="1662015108"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="93.38.125.14" addrtype="ipv4"/>
+<hostnames>
+<hostname name="93-38-125-14.ip70.fastwebnet.it" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="366678" rttvar="366678" to="1833390"/>
+</host>
+<host starttime="1662015117" endtime="1662015117"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="193.19.119.71" addrtype="ipv4"/>
+<hostnames>
+<hostname name="119-71.static.ipcserver.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="350298" rttvar="350298" to="1751490"/>
+</host>
+<host starttime="1662015107" endtime="1662015108"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="45.33.221.18" addrtype="ipv4"/>
+<hostnames>
+<hostname name="45-33-221-18.ctcweb.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="305513" rttvar="305513" to="1527565"/>
+</host>
+<host starttime="1662015114" endtime="1662015114"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="18.195.89.255" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-18-195-89-255.eu-central-1.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="425582" rttvar="425582" to="2127910"/>
+</host>
+<host starttime="1662015107" endtime="1662015108"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="123.101.232.16" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="367166" rttvar="367166" to="1835830"/>
+</host>
+<host starttime="1662015110" endtime="1662015110"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="23.74.64.80" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a23-74-64-80.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="55"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="181047" rttvar="181047" to="905235"/>
+</host>
+<host starttime="1662015109" endtime="1662015109"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="203.132.1.59" addrtype="ipv4"/>
+<hostnames>
+<hostname name="hydrogen.hostmaster.com.au" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="7752" rttvar="7752" to="100000"/>
+</host>
+<host starttime="1662015109" endtime="1662015109"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="81.70.227.57" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="373852" rttvar="373852" to="1869260"/>
+</host>
+<host starttime="1662015107" endtime="1662015108"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="84.17.56.16" addrtype="ipv4"/>
+<hostnames>
+<hostname name="unn-84-17-56-16.cdn77.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="311379" rttvar="311379" to="1556895"/>
+</host>
+<host starttime="1662015110" endtime="1662015110"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="208.110.81.85" addrtype="ipv4"/>
+<hostnames>
+<hostname name="jotex.lifinnac.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="50"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="191067" rttvar="191067" to="955335"/>
+</host>
+<taskbegin task="SYN Stealth Scan" time="1662015122"/>
+<taskend task="SYN Stealth Scan" time="1662015146" extrainfo="1024 total ports"/>
+<host starttime="1662015141" endtime="1662015141"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="64.229.203.224" addrtype="ipv4"/>
+<hostnames>
+<hostname name="bras-base-okvlon3010w-grc-76-64-229-203-224.dsl.bell.ca" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="234947" rttvar="234947" to="1174735"/>
+</host>
+<host starttime="1662015135" endtime="1662015136"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="216.240.127.139" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="244"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="189633" rttvar="189633" to="948165"/>
+</host>
+<host starttime="1662015133" endtime="1662015134"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="154.221.94.91" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="234316" rttvar="234316" to="1171580"/>
+</host>
+<host starttime="1662015135" endtime="1662015135"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="104.200.20.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="li798-110.members.linode.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="203197" rttvar="203197" to="1015985"/>
+</host>
+<host starttime="1662015138" endtime="1662015138"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="23.10.193.205" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a23-10-193-205.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="55"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="189393" rttvar="189393" to="946965"/>
+</host>
+<host starttime="1662015143" endtime="1662015144"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="70.33.223.205" addrtype="ipv4"/>
+<hostnames>
+<hostname name="asterion-partner2.vivitiapp.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="197028" rttvar="197028" to="985140"/>
+</host>
+<host starttime="1662015140" endtime="1662015141"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="3.135.97.171" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-3-135-97-171.us-east-2.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="232"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="225634" rttvar="225634" to="1128170"/>
+</host>
+<host starttime="1662015143" endtime="1662015143"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="151.237.92.107" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="335899" rttvar="335899" to="1679495"/>
+</host>
+<host starttime="1662015129" endtime="1662015129"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="181.117.240.14" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host14.181-117-240.telmex.net.ar" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="114"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="647697" rttvar="496795" to="2634877"/>
+</host>
+<host starttime="1662015143" endtime="1662015143"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="204.152.220.129" addrtype="ipv4"/>
+<hostnames>
+<hostname name="204.152.220.129.static.quadranet.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="165254" rttvar="165254" to="826270"/>
+</host>
+<host starttime="1662015136" endtime="1662015136"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="13.35.124.140" addrtype="ipv4"/>
+<hostnames>
+<hostname name="server-13-35-124-140.sfo5.r.cloudfront.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="244"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="158155" rttvar="158155" to="790775"/>
+</host>
+<host starttime="1662015130" endtime="1662015131"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="73.243.216.42" addrtype="ipv4"/>
+<hostnames>
+<hostname name="c-73-243-216-42.hsd1.co.comcast.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="50"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="787105" rttvar="787105" to="3935525"/>
+</host>
+<host starttime="1662015141" endtime="1662015141"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="156.252.129.234" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="117"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="167830" rttvar="167830" to="839150"/>
+</host>
+<host starttime="1662015135" endtime="1662015135"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="74.137.58.123" addrtype="ipv4"/>
+<hostnames>
+<hostname name="cpe-74-137-58-123.kya.res.rr.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="239032" rttvar="239032" to="1195160"/>
+</host>
+<host starttime="1662015138" endtime="1662015138"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="82.148.183.208" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ip82-148-183-208.brdy.online" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="50"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="334977" rttvar="252424" to="1344673"/>
+</host>
+<host starttime="1662015140" endtime="1662015141"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="13.111.199.182" addrtype="ipv4"/>
+<hostnames>
+<hostname name="view.email.shepardes.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="244"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="213396" rttvar="213396" to="1066980"/>
+</host>
+<taskbegin task="SYN Stealth Scan" time="1662015146"/>
+<taskend task="SYN Stealth Scan" time="1662015170" extrainfo="1024 total ports"/>
+<host starttime="1662015155" endtime="1662015156"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="40.118.209.55" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="171729" rttvar="171729" to="858645"/>
+</host>
+<host starttime="1662015158" endtime="1662015158"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="23.7.126.128" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a23-7-126-128.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="250375" rttvar="250375" to="1251875"/>
+</host>
+<host starttime="1662015162" endtime="1662015162"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="81.200.119.223" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="365553" rttvar="365553" to="1827765"/>
+</host>
+<host starttime="1662015168" endtime="1662015168"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="18.230.177.61" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-18-230-177-61.sa-east-1.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="112"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="414686" rttvar="414686" to="2073430"/>
+</host>
+<host starttime="1662015156" endtime="1662015156"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="34.120.133.76" addrtype="ipv4"/>
+<hostnames>
+<hostname name="76.133.120.34.bc.googleusercontent.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="123"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="7545" rttvar="7545" to="100000"/>
+</host>
+<host starttime="1662015158" endtime="1662015158"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="104.118.11.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a104-118-11-116.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="56"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="255029" rttvar="255029" to="1275145"/>
+</host>
+<host starttime="1662015159" endtime="1662015159"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="8.129.235.146" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="346017" rttvar="346017" to="1730085"/>
+</host>
+<host starttime="1662015159" endtime="1662015159"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="23.205.6.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a23-205-6-147.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="272615" rttvar="272615" to="1363075"/>
+</host>
+<host starttime="1662015162" endtime="1662015163"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="160.178.4.241" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="344216" rttvar="344216" to="1721080"/>
+</host>
+<host starttime="1662015158" endtime="1662015158"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="82.165.68.129" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="298644" rttvar="298644" to="1493220"/>
+</host>
+<host starttime="1662015168" endtime="1662015168"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="23.215.235.5" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a23-215-235-5.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="22287" rttvar="22287" to="111435"/>
+</host>
+<host starttime="1662015160" endtime="1662015160"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="203.227.11.164" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="112"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="348449" rttvar="348449" to="1742245"/>
+</host>
+<host starttime="1662015163" endtime="1662015163"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="84.45.44.4" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="114"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="324212" rttvar="324212" to="1621060"/>
+</host>
+<host starttime="1662015158" endtime="1662015158"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="13.114.70.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-13-114-70-110.ap-northeast-1.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="235"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="164770" rttvar="164770" to="823850"/>
+</host>
+<host starttime="1662015166" endtime="1662015167"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="104.97.218.216" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a104-97-218-216.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="50"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="326885" rttvar="326885" to="1634425"/>
+</host>
+<host starttime="1662015155" endtime="1662015155"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="59.125.195.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="59-125-195-38.hinet-ip.hinet.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="252782" rttvar="252782" to="1263910"/>
+</host>
+<host starttime="1662015164" endtime="1662015164"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="104.85.235.101" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a104-85-235-101.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="56"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="17008" rttvar="17008" to="100000"/>
+</host>
+<host starttime="1662015166" endtime="1662015166"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="175.23.184.206" addrtype="ipv4"/>
+<hostnames>
+<hostname name="206.184.23.175.adsl-pool.jlccptt.net.cn" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="114"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="343800" rttvar="343800" to="1719000"/>
+</host>
+<host starttime="1662015169" endtime="1662015169"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="190.99.180.68" addrtype="ipv4"/>
+<hostnames>
+<hostname name="dsl-emcali-190.99.180.68.emcali.net.co" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="320121" rttvar="320121" to="1600605"/>
+</host>
+<host starttime="1662015156" endtime="1662015156"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="47.98.149.65" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="336029" rttvar="336029" to="1680145"/>
+</host>
+<host starttime="1662015166" endtime="1662015167"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="178.62.39.212" addrtype="ipv4"/>
+<hostnames>
+<hostname name="403180.cloudwaysapps.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="342687" rttvar="342687" to="1713435"/>
+</host>
+<taskbegin task="SYN Stealth Scan" time="1662015170"/>
+<taskprogress task="SYN Stealth Scan" time="1662015201" percent="9.52" remaining="295" etc="1662015496"/>
+<taskprogress task="SYN Stealth Scan" time="1662015231" percent="66.02" remaining="32" etc="1662015262"/>
+<taskend task="SYN Stealth Scan" time="1662015236" extrainfo="1024 total ports"/>
+<host starttime="1662015232" endtime="1662015232"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="134.209.109.170" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="102534" rttvar="102534" to="512670"/>
+</host>
+<host starttime="1662015216" endtime="1662015216"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="154.55.167.78" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="221855" rttvar="221855" to="1109275"/>
+</host>
+<host starttime="1662015235" endtime="1662015235"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="121.198.252.252" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="419682" rttvar="419682" to="2098410"/>
+</host>
+<host starttime="1662015229" endtime="1662015229"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="66.22.9.214" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="234686" rttvar="234686" to="1173430"/>
+</host>
+<host starttime="1662015225" endtime="1662015225"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="168.188.86.141" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="206886" rttvar="167576" to="877190"/>
+</host>
+<host starttime="1662015233" endtime="1662015234"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="178.168.48.35" addrtype="ipv4"/>
+<hostnames>
+<hostname name="178-168-48-35.starnet.md" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="351401" rttvar="351401" to="1757005"/>
+</host>
+<host starttime="1662015216" endtime="1662015216"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="217.156.47.89" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail-ajdg-hi.gazduireweb.ro" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="333030" rttvar="333030" to="1665150"/>
+</host>
+<host starttime="1662015229" endtime="1662015230"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="78.46.241.208" addrtype="ipv4"/>
+<hostnames>
+<hostname name="static.208.241.46.78.clients.your-server.de" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="315712" rttvar="315712" to="1578560"/>
+</host>
+<host starttime="1662015221" endtime="1662015221"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="143.248.55.120" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="238809" rttvar="182427" to="968517"/>
+</host>
+<host starttime="1662015230" endtime="1662015230"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="155.159.118.227" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="50"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="232902" rttvar="232902" to="1164510"/>
+</host>
+<host starttime="1662015227" endtime="1662015228"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="35.166.4.178" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-35-166-4-178.us-west-2.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="235"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="191962" rttvar="191962" to="959810"/>
+</host>
+<host starttime="1662015227" endtime="1662015228"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="185.230.244.173" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="421496" rttvar="337716" to="1772360"/>
+</host>
+<host starttime="1662015227" endtime="1662015228"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="147.182.176.184" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="421605" rttvar="421605" to="2108025"/>
+</host>
+<host starttime="1662015235" endtime="1662015235"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="52.30.213.50" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ec2-52-30-213-50.eu-west-1.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="411236" rttvar="411236" to="2056180"/>
+</host>
+<host starttime="1662015230" endtime="1662015231"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="46.251.129.13" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="300991" rttvar="300991" to="1504955"/>
+</host>
+<host starttime="1662015233" endtime="1662015234"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="13.225.21.64" addrtype="ipv4"/>
+<hostnames>
+<hostname name="server-13-225-21-64.bru50.r.cloudfront.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="238"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="301311" rttvar="301311" to="1506555"/>
+</host>
+<host starttime="1662015216" endtime="1662015216"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="178.132.223.93" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="49"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="342957" rttvar="208836" to="1178301"/>
+</host>
+<host starttime="1662015225" endtime="1662015225"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="104.99.202.151" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a104-99-202-151.deploy.static.akamaitechnologies.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="56"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="56702" rttvar="56702" to="283510"/>
+</host>
+<taskbegin task="Parallel DNS resolution of 4096 hosts." time="1662015237"/>
